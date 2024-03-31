@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <h1>Check your Results</h1>
+    </div>
+    <div class="main">
+        <input type="number" placeholder="Enter chemistry marks" id="one">
+        <input type="number" placeholder="Enter english marks" id="two">
+        <input type="number" placeholder="Enter maths marks" id="three">
+        <input type="number" placeholder="Enter biology marks" id="four">
+        <input type="number" placeholder="Enter computer marks" id="five">
+        <button onclick="presscheck()" id="button">Check</button>
+    </div>
+    <div class="container">
+            <h1>Total Marks : 500</h1>
+                <h1>Obtained Marks : <span id="render">--</span></h1>
+            <h1 id="perc">Percentage : <span id="render2">--</span><span id="setmargin">%</span></h1>
+            <h1>Grade :<span id="graderender">---</span></h1>
+    </div>
+    
+
+
+    <script src="index.js"></script>
+</body>
+</html>
